@@ -109,8 +109,22 @@ label start:
 
     "Then again she did witness you get taken down by two 3 foot tall kids. -_-"
 
-    <Choice One>
+menu:
+    "Oh yeeeeeaaaaah I’m tooooootally fiiiiiiine!":
+        jump heart.one.one
+    "Tell the truth about your injuries":
+        jump heart.one.two
+    "Start making weird noises":
+        jump heart.one.three
 
+        label heart.one.one:
+        "You plaster on a huge smile in hopes of fooling her but alas it doesn't seem to work as she casts you a mildly disapproving glare."
+        H "Lying won’t do you any good. You’ve been squinting and clutching your arm the entire time you’ve been standing in front of me."
+        "Wow she actually noticed that? Now you feel really bad for lying"
+            jump choice.one.end
+
+
+    label choice.one.end
     H "Well Sensory overload is usually common when an outsider comes down here to visit."
 
     H "Most of our citizens are accustomed to the energy surges that flow through everything we tend to forget it’s a hard thing to adjust to.""
