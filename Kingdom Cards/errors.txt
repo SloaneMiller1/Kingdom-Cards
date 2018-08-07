@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 29: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "It feels like you had a sensory overload and its so bad you cant even get your eyes back open." 
+    ^
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Tue Aug 07 14:19:46 2018
