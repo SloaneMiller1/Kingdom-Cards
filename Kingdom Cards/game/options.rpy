@@ -12,6 +12,9 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
+init python:
+    config.debug_sound = False
+
 define config.name = _("Kingdom Cards")
 
 
