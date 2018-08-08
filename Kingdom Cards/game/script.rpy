@@ -37,7 +37,7 @@ label start:
     Du "-Of the Heart Queen’s bodyguards!"
 
     scene bg heartcastle
-    show deeanddum neutral
+    show deeanddum neutral at left
     "You sit up instantly and look to see these so called bodyguards are…..actually really tiny."
 
     "Like 3 feet tall levels of tiny"
@@ -60,6 +60,8 @@ label start:
 
     "Your name is now Fish ???? And you have no idea what is going on"
 
+    show deeanddum fighting at left
+
     Du "SEE! I told you they were a fish!"
     De "Fishes don’t have legs stupid!"
     Du "I am not stupid you are!"
@@ -79,17 +81,17 @@ label start:
 
     "You see the bushes around you rustle and prepare for the worst."
 
-    show heart worried
+    show heart worried at right
 
     H "Oh thank god what is it-"
 
-    show heart shocked
+    show heart shocked at right
 
     H "Oh what did you do to the poor creature!? The poor dear looks scared witless!"
 
     "Like you children being scolded (which you guess they kinda are) they quickly remove the net and scramble in front of you and the lady."
 
-    show heart scolding
+    show heart scolding at right
 
     H "There we are now. Honestly you two! I told you to be nice to whatever it was, I bet you two started fighting too didn’t you?"
 
@@ -103,15 +105,15 @@ label start:
     "You don’t realize you are gawking until you see her look up and giggle presumably at you."
 
     "She waves her the two twins away before sitting down in front of you."
-    hide deeanddumneutrals
+    hide deeanddum neutrals
 
-    show heart neutral
+    show heart neutral at right
 
     "Heart: So your name is Fish? An odd name then again I suppose mine is fair weirder."
 
     "Your not sure what she means by a weird name I mean it’s not like she’s name heart….right???"
 
-    show heart worried
+    show heart worried at right
 
     "Heart: In any case are you alright? You look like you got hurt. I hope it wasn’t the twins."
 
@@ -133,7 +135,7 @@ label start:
 label heartoneone:
     "You plaster on a huge smile in hopes of fooling her but alas it doesn't seem to work as she casts you a mildly disapproving glare."
 
-    show heart thinking
+    show heart thinking at right
 
     H "Lying won’t do you any good. You’ve been squinting and clutching your arm the entire time you’ve been standing in front of me."
 
@@ -143,7 +145,7 @@ label heartoneone:
 label heartonetwo:
     "You spill about all your injuries including the odd way you were reacting to the world around you."
 
-    show heart coverface
+    show heart coverface at right
 
     "Heart seems to nod a few times before pulling you into a gentle embrace"
 
@@ -157,7 +159,7 @@ label heartonetwo:
 label heartonethree:
     "You panic and start making random noises similar to an angry dying cat."
 
-    show heart neutral
+    show heart neutral at right
 
     "Surprisingly this doesn’t seems to phase Heart as she simply smiles and shakes her head."
 
@@ -168,7 +170,7 @@ label heartonethree:
 
 label heartoneend:
 
-    show heart thinking
+    show heart thinking at right
     H "Well Sensory overload is usually common when an outsider comes down here to visit."
 
 H "Most of our citizens are accustomed to the energy surges that flow through everything we tend to forget it’s a hard thing to adjust to."
@@ -187,7 +189,7 @@ H "Inside my castle of course."
 
 scene bg thronebed
 
-show heart thinking
+show heart thinking at right
 
 "As soon as you hit the inside of the castle’s wire gates your find your drowning in the smell of chocolate and roses."
 
@@ -199,7 +201,7 @@ show heart thinking
 
 "It seems incredible suspicious."
 
-show heart neutral
+show heart neutral at right
 
 H "Here have a seat while I get something for your arm. Feel free to eat the cookies of the coco it’ll help with your sensory problems."
 
@@ -216,7 +218,7 @@ hide heart neutral
 
 "Man this stuff is awesome."
 
-show heart thinking
+show heart thinking at right
 
 "While you keep shoving your face with cookies Heart comes back and grabs your hurt arm."
 
@@ -226,11 +228,11 @@ H "Alright now this just goes on like this and….done!"
 
 "You thank her though it sounds more like garbles since there’s still cookie in your mouth"
 
-show heart scolding
+show heart scolding at right
 
 "Heart: You’re very welcome- mouth closed while you chew please."
 
-show heart thinking
+show heart thinking at right
 
 H "Now then seeing as you came through the well I can assume that you’re looking for a way home?"
 
@@ -242,7 +244,7 @@ H "Its a safety measure we installed to ensure that no one from here can leak in
 
 "Judging from her grimace it must not have been pretty so you spare her the pain of asking about it."
 
-show heart coverface
+show heart coverface at right
 
 H "Now I’m more than capable of handing you mine but as for the others you may find it...difficult to reach them."
 
