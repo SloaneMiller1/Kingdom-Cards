@@ -103,6 +103,7 @@ label start:
     "You don’t realize you are gawking until you see her look up and giggle presumably at you."
 
     "She waves her the two twins away before sitting down in front of you."
+    hide deeanddumneutrals
 
     show heart neutral
 
