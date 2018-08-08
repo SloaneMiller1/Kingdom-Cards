@@ -2,9 +2,45 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 317: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "Diddle Darn looks like this isn't your day
+File "game/script.rpy", line 217: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
+    ^
+
+File "game/script.rpy", line 227: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart scolding
+    ^
+
+File "game/script.rpy", line 231: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
+    ^
+
+File "game/script.rpy", line 243: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart coverface
+    ^
+
+File "game/script.rpy", line 255: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
+    ^
+
+File "game/script.rpy", line 263: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
+    ^
+
+File "game/script.rpy", line 267: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
+    ^
+
+File "game/script.rpy", line 273: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart worried
+    ^
+
+File "game/script.rpy", line 283: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
+    ^
+
+File "game/script.rpy", line 291: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart coverface
+    ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Wed Aug 08 13:57:35 2018
+Wed Aug 08 14:45:35 2018

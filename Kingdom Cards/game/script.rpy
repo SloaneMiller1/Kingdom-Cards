@@ -37,6 +37,7 @@ label start:
     Du "-Of the Heart Queen’s bodyguards!"
 
     scene bg heartcastle
+    show deeanddum neutral
     "You sit up instantly and look to see these so called bodyguards are…..actually really tiny."
 
     "Like 3 feet tall levels of tiny"
@@ -78,12 +79,17 @@ label start:
 
     "You see the bushes around you rustle and prepare for the worst."
 
+    show heart worried
 
     H "Oh thank god what is it-"
+
+    show heart shocked
 
     H "Oh what did you do to the poor creature!? The poor dear looks scared witless!"
 
     "Like you children being scolded (which you guess they kinda are) they quickly remove the net and scramble in front of you and the lady."
+
+    show heart scolding
 
     H "There we are now. Honestly you two! I told you to be nice to whatever it was, I bet you two started fighting too didn’t you?"
 
@@ -98,9 +104,13 @@ label start:
 
     "She waves her the two twins away before sitting down in front of you."
 
+    show heart neutral
+
     "Heart: So your name is Fish? An odd name then again I suppose mine is fair weirder."
 
     "Your not sure what she means by a weird name I mean it’s not like she’s name heart….right???"
+
+    show heart worried
 
     "Heart: In any case are you alright? You look like you got hurt. I hope it wasn’t the twins."
 
@@ -122,6 +132,8 @@ label start:
 label heartoneone:
     "You plaster on a huge smile in hopes of fooling her but alas it doesn't seem to work as she casts you a mildly disapproving glare."
 
+    show heart thinking
+
     H "Lying won’t do you any good. You’ve been squinting and clutching your arm the entire time you’ve been standing in front of me."
 
     "Wow she actually noticed that? Now you feel really bad for lying"
@@ -129,6 +141,8 @@ label heartoneone:
 
 label heartonetwo:
     "You spill about all your injuries including the odd way you were reacting to the world around you."
+
+    show heart coverface
 
     "Heart seems to nod a few times before pulling you into a gentle embrace"
 
@@ -142,6 +156,8 @@ label heartonetwo:
 label heartonethree:
     "You panic and start making random noises similar to an angry dying cat."
 
+    show heart neutral
+
     "Surprisingly this doesn’t seems to phase Heart as she simply smiles and shakes her head."
 
     H "I’m gonna take that as a busted arm and sensory/information overload correct?"
@@ -150,6 +166,8 @@ label heartonethree:
     jump heartoneend
 
 label heartoneend:
+
+    show heart thinking
     H "Well Sensory overload is usually common when an outsider comes down here to visit."
 
 H "Most of our citizens are accustomed to the energy surges that flow through everything we tend to forget it’s a hard thing to adjust to."
@@ -168,6 +186,8 @@ H "Inside my castle of course."
 
 scene bg thronebed
 
+show heart thinking
+
 "As soon as you hit the inside of the castle’s wire gates your find your drowning in the smell of chocolate and roses."
 
 "It overwhelms you for a good while and you have to shut your eyes and senses off and stumble blindly behind the Heart Queen."
@@ -178,12 +198,15 @@ scene bg thronebed
 
 "It seems incredible suspicious."
 
+show heart neutral
+
 H "Here have a seat while I get something for your arm. Feel free to eat the cookies of the coco it’ll help with your sensory problems."
 
 "Oh thats what they are!"
 
 "You are still a bit skeptical but Heart seems to notice this and takes a big out of one of the cookies before leaving."
 
+hide heart neutral
 "Seems good enough for you!"
 
 "You take a huge chop out of one of the cookies and a huge drink from the mug."
@@ -191,6 +214,8 @@ H "Here have a seat while I get something for your arm. Feel free to eat the coo
 "Almost instantly you feel your headache stop and the overload of your senses calming down!"
 
 "Man this stuff is awesome."
+
+show heart thinking
 
 "While you keep shoving your face with cookies Heart comes back and grabs your hurt arm."
 
@@ -200,7 +225,11 @@ H "Alright now this just goes on like this and….done!"
 
 "You thank her though it sounds more like garbles since there’s still cookie in your mouth"
 
+show heart scolding
+
 "Heart: You’re very welcome- mouth closed while you chew please."
+
+show heart thinking
 
 H "Now then seeing as you came through the well I can assume that you’re looking for a way home?"
 
@@ -212,6 +241,8 @@ H "Its a safety measure we installed to ensure that no one from here can leak in
 
 "Judging from her grimace it must not have been pretty so you spare her the pain of asking about it."
 
+show heart coverface
+
 H "Now I’m more than capable of handing you mine but as for the others you may find it...difficult to reach them."
 
 H "You see we’re all a bit...tense at the moment."
@@ -222,17 +253,25 @@ H "You see we’re all a bit...tense at the moment."
 
 H "Goodness I didn’t think they were this close already."
 
+show heart neutral
+
 "She suddenly stands and flashes you a tense smile."
 
 H "Well…. we do want to get you home as soon as possible. I’m sure your family misses you greatly."
 
 H "Clover’s Kingdom is the closest to mine so that’s best where you start!"
 
+show heart thinking
+
 H "Oh but of course it won’t be safe to send you off alone. Clover’s Kingdom is uneasy at the moment."
+
+show heart neutral
 
 H "Well then ! I suppose I will have to just go with you!"
 
 "You feel rude for this but you can’t help but ask why she doesn’t just send her guards with you"
+
+show heart worried
 
 H "O-Oh...ah, well...I love Dee and Dum but...they aren’t always the most, capable of the bunch."
 
@@ -242,11 +281,15 @@ H "Besides its a fast trip and I haven’t seen my dear Clover in a while"
 
 scene bg forest
 
+show heart neutral
+
 H "Don’t worry this is a relatively safe path we’ll be there in no more than 15 minutes"
 
 "The forest is setting off all kinds of alarm bells in your head so you decide to hold part of Hearts dress and get through as fast as possible"
 
 "All in quiet for a time and you think you’ve made it to safety when a cluster of three beings surround both you and Heart."
+
+show heart coverface
 
 "The fiends have diamonds on their chest and point weapons towards Heart and you but saying nothing."
 
@@ -262,6 +305,8 @@ menu:
         jump hearttwothree
 
 label hearttwoone:
+
+hide heart coverface
 "Your flight or fight instincts kick in and you choice flight."
 "You shoot away from Heart and the scary men and run as fast as you can away from them."
 "Your not sure where you’re going or how long you run but you don’t stop until you are unable to  hear Heart’s voice crying out for you."
@@ -271,12 +316,14 @@ jump gameover
 
 label hearttwotwo:
 $ stick = True
+hide heart coverface
 "Your flight of fight instincts kick in and you grab the nearest object."
 "Which happens to be a stick."
 "Oh well work with what you have."
 "You shut your eyes and step in front of Heart and wave the stick wildly trying to hit one of the guys or scare them away."
 "When you open your eyes again all three guys on the guard knocked unconscious"
 "Wow you didn’t think you were that goo- "
+show heart fighting
 "Nope you turn to find Heart holding a bow a pointed towards the ground fully loaded"
 "You take another glance at the guys under you and see they all actually have arrows struck through their hearts"
 H "Its alright dearling. You were very brave."
@@ -286,30 +333,38 @@ jump hearttwoend
 label hearttwothree:
 "Your flight and fight instinct kick in and you choose neither."
 "Instead you choice to coward timidly behind Heart and screech."
+show heart fighting
 "Heart seems rather used to this and instead of cowering too like you expected she claps her hands and summons a bow."
 "She points it towards one of the men before releasing an arrow of pink energy into his chest and it’s ricochets off trees until all three men are down"
 H "Morons…"
+show heart worried
 H "Oh gosh are you alright that must have been so scary!"
 "...you make the decisions to never piss off Heart...ever…"
 jump heartwoend
 
 label hearttwoend:
+show heart thinking
 H "Come on let’s keep moving forward"
 
-"You make the decision to follow heart through the rest of the woods as she unsummons her bow by snapping it against her knee"
+"You follow heart through the rest of the woods as she unsummons her bow by snapping it against her knee"
 " ...scary"
 
+show heart neutral
 "You decide to distract from the looming fact that you just watched this woman…(teen?) beat up 4 guy single handedly in a poofy overkill skirt by inquiring about her weapon."
 
 H "Oh yes all of the Rulers of Suite have a weapon and are able to summon."
 
 "Rulers of Suite? You ask if she means Suites as in the faces on cards."
 
+show heart worried
+
 H "Well, unless yours are different than ours I believe so!"
 
 "Huh so that’s why she’s named heart."
 
 "You continue to ponder this for the short remainder of your trip until heart breaks you train of thought"
+
+show heart neutral
 
 H "Well here we are! Welcome to the Clover kingdom!"
 
