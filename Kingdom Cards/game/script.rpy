@@ -219,7 +219,7 @@ H "Here have a seat while I get something for your arm. Feel free to eat the coo
 hide heart neutral
 show fish smiles at left
 "Seems good enough for you!"
-show fish lies at left
+show fish nomnom at left
 "You take a huge chop out of one of the cookies and a huge drink from the mug."
 
 "Almost instantly you feel your headache stop and the overload of your senses calming down!"
@@ -231,9 +231,7 @@ show heart thinking at right
 "While you keep shoving your face with cookies Heart comes back and grabs your hurt arm."
 
 H "Alright now this just goes on like this and….done!"
-show fish confused at left
 "She slides what looks like a flexible cast over your arm that makes it not hurt as much when you move it."
-show fish lies at left
 "You thank her though it sounds more like garbles since there’s still cookie in your mouth"
 
 show heart scolding at right
