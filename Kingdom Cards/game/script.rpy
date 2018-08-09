@@ -76,7 +76,7 @@ label start:
     H "Boys? Where are you two? Did you find the thing that came out the well."
 
     "Oh god, that sounds like an actual adult you break into a full sprint when on of the twins sticks their stick in front of your feet causing you to hit the ground while the other throws a net on top of you."
-
+    show fish net at center
     show deeanddum neutral at left
     De "Yes Ma’am"
     Du "We caught em!"
@@ -297,7 +297,7 @@ H "Don’t worry this is a relatively safe path we’ll be there in no more than
 "The forest is setting off all kinds of alarm bells in your head so you decide to hold part of Hearts dress and get through as fast as possible"
 
 "All in quiet for a time and you think you’ve made it to safety when a cluster of three beings surround both you and Heart."
-
+show fish shock at left
 show heart coverface at right
 
 "The fiends have diamonds on their chest and point weapons towards Heart and you but saying nothing."
@@ -327,10 +327,12 @@ jump gameover
 label hearttwotwo:
 $ stick = True
 hide heart coverface
+show fish fite at center
 "Your flight of fight instincts kick in and you grab the nearest object."
 "Which happens to be a stick."
 "Oh well work with what you have."
 "You shut your eyes and step in front of Heart and wave the stick wildly trying to hit one of the guys or scare them away."
+show fish shock at left
 "When you open your eyes again all three guys on the guard knocked unconscious"
 "Wow you didn’t think you were that goo- "
 show heart fighting at right
@@ -350,6 +352,7 @@ show heart fighting at right
 "She points it towards one of the men before releasing an arrow of pink energy into his chest and it’s ricochets off trees until all three men are down"
 H "Morons…"
 show heart worried at right
+show fish shock at center
 H "Oh gosh are you alright that must have been so scary!"
 "...you make the decisions to never piss off Heart...ever…"
 jump hearttwoend
