@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 353, in script
-    jump heartwoend
-ScriptError: could not find label 'heartwoend'.
+  File "game/script.rpy", line 269, in script
+    jump gameover
+ScriptError: could not find label 'gameover'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 353, in script
-    jump heartwoend
-  File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\ast.py", line 1600, in execute
+  File "game/script.rpy", line 269, in script
+    jump gameover
+  File "C:\Users\Girls Who Code\Documents\Kingdom Cards\renpy-7.0.0-sdk\renpy\ast.py", line 1600, in execute
     rv = renpy.game.script.lookup(target)
-  File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\script.py", line 873, in lookup
+  File "C:\Users\Girls Who Code\Documents\Kingdom Cards\renpy-7.0.0-sdk\renpy\script.py", line 873, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'heartwoend'.
+ScriptError: could not find label 'gameover'.
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
 Kingdom Cards 1.0
-Thu Aug 09 10:51:11 2018
+Wed Aug 08 13:40:38 2018

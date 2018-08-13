@@ -2,29 +2,45 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 194: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish smiles at left
+File "game/script.rpy", line 217: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
     ^
 
-File "game/script.rpy", line 202: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish confused at left
+File "game/script.rpy", line 227: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart scolding
     ^
 
-File "game/script.rpy", line 208: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish smiles on left
+File "game/script.rpy", line 231: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
     ^
 
-File "game/script.rpy", line 221: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish lies at left
+File "game/script.rpy", line 243: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart coverface
     ^
 
-File "game/script.rpy", line 233: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish confused at left
+File "game/script.rpy", line 255: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
     ^
 
-File "game/script.rpy", line 235: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show fish lies at left
+File "game/script.rpy", line 263: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart thinking
+    ^
+
+File "game/script.rpy", line 267: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
+    ^
+
+File "game/script.rpy", line 273: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart worried
+    ^
+
+File "game/script.rpy", line 283: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    show heart neutral
+    ^
+
+File "game/script.rpy", line 291: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show heart coverface
     ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Thu Aug 09 10:48:05 2018
+Wed Aug 08 14:45:35 2018
