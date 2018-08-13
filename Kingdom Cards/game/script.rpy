@@ -374,42 +374,40 @@ show fish confused at left
 
 " ...scary"
 
-    show heart neutral at right
+show heart neutral at right
 
-    show fish lies at left
+show fish lies at left
 
-    "You decide to distract from the looming fact that you just watched this woman…(teen?) beat up 4 guy single handedly in a poofy overkill skirt by inquiring about her weapon."
+"You decide to distract from the looming fact that you just watched this woman…(teen?) beat up 4 guy single handedly in a poofy overkill skirt by inquiring about her weapon."
 
-    H "Oh yes all of the Rulers of Suite have a weapon and are able to summon."
+H "Oh yes all of the Rulers of Suite have a weapon and are able to summon."
 
-    "Rulers of Suite? You ask if she means Suites as in the faces on cards."
+"Rulers of Suite? You ask if she means Suites as in the faces on cards."
 
-    show heart worried at right
+show heart worried at right
 
-    H "Well, unless yours are different than ours I believe so!"
+H "Well, unless yours are different than ours I believe so!"
 
-    "Huh so that’s why she’s named heart."
+"Huh so that’s why she’s named heart."
 
-    "You continue to ponder this for the short remainder of your trip until heart breaks you train of thought"
+"You continue to ponder this for the short remainder of your trip until heart breaks you train of thought"
 
 show fish smiles at left
 
 show heart neutral at right
 
-    H "Well here we are! Welcome to the Clover kingdom!"
+H "Well here we are! Welcome to the Clover kingdom!"
 
-    scene bg hearted
+scene bg hearted
 
-    jump cloverstart
+jump cloverstart
 
-    label gameover:
+label gameover:
 
     scene bg gamover
-        "   "
+    "   "
     label cloverstart:
-        "You arrive and look up and...wow!"
-
-
+    "You arrive and look up and..."
     "Honestly you're not even sure you left the forest."
 
     "This looks to be more of a clearing in the forest than a kingdom."
@@ -456,7 +454,9 @@ show heart neutral at right
 
     "It almost sounds like-"
 
-    C "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+    C "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+    C "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+    C "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
     "You turn towards the sound of the noise and see a blur of red and green tackle heart to the ground."
 
@@ -486,7 +486,7 @@ show heart neutral at right
 
     C "Oh! Heart are you going to stay? I haven’t seen you in so long and I really wanna have another tea party."
 
-    C "...preferably one that doesn’t end like last time.." *she looks sheepish*
+    C "...preferably one that doesn’t end like last time.."
 
     H "I’m sorry Clover but I only came to leave Fish with you. I’ve already been gone an hour and my people aren't the most….self reliant."
 
@@ -564,13 +564,13 @@ show heart neutral at right
 
     C "Yes a battle would be prefect!"
 
-    C "It’ll be the perfect chance to practice if I have to battle against an enemy!
+    C "It’ll be the perfect chance to practice if I have to battle against an enemy!"
 
     "So you are just her practice dummy?"
 
     "Why does that scare you so much?"
 
-    "Still, if you have to fight her to get out of this crazy world and go home then so be it!" *pumped up*
+    "Still, if you have to fight her to get out of this crazy world and go home then so be it!"
 
     C "Oh come on I’ll take you down to the arena!"
 
@@ -582,134 +582,127 @@ show heart neutral at right
 
     "The arena is a large field of grass shaped like a giant four leafed clover with weapons littering the outer edges."
 
-    #If stick = true:
+if stick:
 
-    #C "I would offer you a weapon but I think you're pretty good with that stick of yours so I’ll use a stick too!"
+    C "I would offer you a weapon but I think you're pretty good with that stick of yours so I’ll use a stick too!"
 
-    #C "That way it’s fair!"
+    C "That way it’s fair!"
 
-    #"You nod. That does sems fair and non lethal- DEAR GOD WHY DOES SHE HAVE A TREE BRANCH?!"
+    "You nod. That does sems fair and non lethal- DEAR GOD WHY DOES SHE HAVE A TREE BRANCH?!"
 
-    #"Clover had apparently thought that a fallen tree branch two times both of your sizes was the same as your little stick."
+    "Clover had apparently thought that a fallen tree branch two times both of your sizes was the same as your little stick."
 
-    #"Before you get a chance to argue she smiles with way too much joy for a girl about to fight"
+    "Before you get a chance to argue she smiles with way too much joy for a girl about to fight"
 
-    #C "Ready...set….go!""
+    C "Ready...set….go!"
 
-    #"She takes a wild swing at you and you dodge to the best of your ability somehow not managing to get hit"
+    "She takes a wild swing at you and you dodge to the best of your ability somehow not managing to get hit"
 
-    #"She swings again this time throwing the branch at you as well"
+    "She swings again this time throwing the branch at you as well"
 
-    #"That manages to hit you."
+    "That manages to hit you."
 
-    #"The branch knocks you bad but thankfully you scamper away from it easily"
+    "The branch knocks you bad but thankfully you scamper away from it easily"
 
-    #"Clutching your stick tighter you start to swing it wildly while screeching and running towards Clover.""
+    "Clutching your stick tighter you start to swing it wildly while screeching and running towards Clover."
 
-    #"And when you open your eyes again."
+    "And when you open your eyes again."
 
-    #"You haven’t landed a single hit on her…"
+    "You haven’t landed a single hit on her…"
 
-    #"But she is sitting on the ground with tears in her eyes."
+    "But she is sitting on the ground with tears in her eyes."
+    jump stickend
 
-    #Jump to stick end
+else:
+    "Clover drags you over to a stack of weapons and smiles at you way too innocently for someone who just dragged you to a sky high pile of weapons."
 
-    #Else:
-    #"Clover drags you over to a stack of weapons and smiles at you way too innocently for someone who just dragged you to a sky high pile of weapons."
+    C "Here feel free to pick a weapon!"
 
-    #C "Here feel free to pick a weapon!"
+    "You feel your hands start to get all sweaty as you start shifting through the pile."
 
-    #"You feel your hands start to get all sweaty as you start shifting through the pile."
+    "You’re not even sure what half these weapons are a lot of them look like they were made to used by giants."
 
-    #"You’re not even sure what half these weapons are a lot of them look like they were made to used by giants."
+    "Which honestly you wouldn't doubt at this point."
 
-    #"Which honestly you wouldn't doubt at this point."
+    "You reach the bottom of the pile before you find...a little dagger!"
 
-    #"You reach the bottom of the pile before you find...a little dagger!"
+    "This is perfect just your size and you know how to use it."
 
-    #"This is perfect just your size and you know how to use it."
+    "You are quick to snatch up the dagger and head towards the center of the arena where Clover is waiting."
 
-    #"You are quick to snatch up the dagger and head towards the center of the arena where Clover is waiting."
+    C "Alright are you ready?"
 
-    #C "Alright are you ready?"
+    "You nod and mimic a fighting stance."
 
-    #"You nod and mimic a fighting stance."
+    C "Alright Ready...Set….."
 
-    #C "Alright Ready...Set….."
+    "Oh wait it just occurred to you clover isn’t holding any sort of weapon."
 
-    #"Oh wait it just occurred to you clover isn’t holding any sort of weapon."
+    C "Go!"
 
-    #C "Go!"
+    "Clover forms her hands into the symbol of a club before clapping them together similar to how heart summoned her bow. As she does this the light from the clap begins to form….oh god no!"
 
-    #"Clover forms her hands into the symbol of a club before clapping them together similar to how heart summoned her bow. As she does this the light from the clap begins to form….oh god no!"
+    "You feel yourself having a mini flashback to Heart explaining how every Suite Ruler has a unique Weapon."
 
-    #"You feel yourself having a mini flashback to Heart explaining how every Suite Ruler has a unique Weapon."
+    "And it appears that Clover’s….are bombs."
 
-    #"And it appears that Clover’s….are bombs."
+    "You barely get a chance to run before Clover is hurling a bomb straight at you."
 
-    #"You barely get a chance to run before Clover is hurling a bomb straight at you."
+    "You barely manage to dodge before she hurdles another and another and another."
 
-    #"You barely manage to dodge before she hurdles another and another and another."
+    "You have no idea how you’re going to survive this. Clover doesn't seem like the type to kill you on purpose. Then again she does seem highly accident prone."
 
-    #"You have no idea how you’re going to survive this. Clover doesn't seem like the type to kill you on purpose. Then again she does seem highly accident prone."
+    "You dodge one final time before it seems like Clover ran out of bombs."
 
-    #"You dodge one final time before it seems like Clover ran out of bombs."
+    "Taking the opportunity you run towards her with your dagger and start slashing wildly with your eyes closed"
 
-    #"Taking the opportunity you run towards her with your dagger and start slashing wildly with your eyes closed"
+    "When you open them again you haven't landed a single hit on her….and yet she's lying on the grass"
 
-    #"When you open them again you haven't landed a single hit on her….and yet she's lying on the grass"
+    jump stickend
 
-    #Jump stick-end
+label stickend:
+    C "that was really scary…"
 
-    #Label stick-end:
+    "Oh god no she’s crying!"
 
-    #C "that was really scary…"
+    "You drop the stick and scamper over to her hugging her and patting her head gently."
 
-    #"Oh god no she’s crying!"
+    C "Im sorry!  I didn’t really wanna fight you but I thought you would treat me more seriously if the trial was more risky."
 
-    #"You drop the stick and scamper over to her hugging her and patting her head gently."
+    "You try to find something to say to reconcile her but...really what can you say.  She’s a twelve year old queen  who more than likely isn’t ever taken seriously. You can sympathize with her need for respect."
 
-    #C "Im sorry!  I didn’t really wanna fight you but I thought you would treat me more seriously if the trial was more risky."
+    C "Here. Take the key you were at least brave enough to try and fight me even if we didn’t finish it."
 
-    #"You try to find something to say to reconcile her but...really what can you say.  She’s a twelve year old queen  who more than likely isn’t ever taken seriously. You can sympathize with her need for respect."
+    "You gratefully take the key from her and stand up pulling her up with you."
 
-    #C "Here. Take the key you were at least brave enough to try and fight me even if we didn’t finish it."
+    C "Thank you….Hey do you wanna have a tea party?"
 
-    #"You gratefully take the key from her and stand up pulling her up with you."
+    "Your a bit taken back by the question and your face must’ve given away your confusion."
 
-    #C "Thank you….Hey do you wanna have a tea party?"
+    C "Yeah I haven’t had one with anyone who isn’t already a part of the Clover Kingdom since well….you know."
 
-    #"Your a bit taken back by the question and your face must’ve given away your confusion."
+    "Oh that's right you forgot that there was a war going on and that Clover was a leader during that war."
 
-    #C "Yeah I haven’t had one with anyone who isn’t already a part of the Clover Kingdom since well….you know."
+    C "So what do you say? Is that a yes?"
 
-    #"Oh that's right you forgot that there was a war going on and that Clover was a leader during that war."
 
-    #C "So what do you say? Is that a yes?""
+menu:
+    "Sure why not?":
+        "Clovers mood seems to shift incredible fast as she begins to jump up and down holding you hands."
+        jump cloverchoiceoneend
+    "I’m sorry I have to keep going":
+        C "Oh...its ok I understand"
 
+        "Oh god no she’s tearing up again!"
 
-    #CLOVER CHOICE 1
+        "You quickly change your answer to an overwhelming yes which seems to put a smile back on her face."
+        jump cloverchoiceoneend
+    "Say literally nothing":
+        C "Im gonna take your silence as a yes!"
+        "Oh wow she makes the difficulty of making choices easy!"
+        jump cloverchoiceoneend
 
-    #"Sure why not?"
-
-    #"Clovers mood seems to shift incredible fast as she begins to jump up and down holding you hands."
-
-    #2.  I’m sorry I have to keep going
-
-    #C "Oh...its ok I understand"
-
-    #"Oh god no she’s tearing up again!"
-
-    #"You quickly change your answer to an overwhelming yes which seems to put a smile back on her face."
-
-    #3. Say literally nothing
-
-    #C "Im gonna take your silence as a yes!"
-
-    #"Oh wow she makes the difficulty of making choices easy!"
-
-    #END OF FIRST CHOICE
-
+label cloverchoiceoneend:
     C "Oh yay thank you thank you thank you!"
 
     "You nod along with her."
@@ -838,8 +831,7 @@ show heart neutral at right
 
 
     #END OF CHOICE
-
-    "Hatter coughs kind of awkwardly.""
+    "Hatter coughs kind of awkwardly."
 
     Ht "Well it’s getting awfully late and Im sure Fish will want to get home as soon as possible and from what I hear they have two more kingdoms to visit."
 
@@ -855,7 +847,7 @@ show heart neutral at right
 
     C "In fact it would probably be best if I take you all the way to the next kingdom!"
 
-    Ht "Your taking her to Spade? I thought you try to avoid her?""
+    Ht "Your taking her to Spade? I thought you try to avoid her?"
 
     "You watch Clover’s face drop a little."
 
