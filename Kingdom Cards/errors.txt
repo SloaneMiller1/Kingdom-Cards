@@ -2,57 +2,125 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/script.rpy", line 217: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart thinking
-    ^
+File "game/script.rpy", line 82: expected statement.
+    <<<<<<< HEAD
+                ^
 
-File "game/script.rpy", line 227: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart scolding
-    ^
+File "game/script.rpy", line 84: expected statement.
+    =======
+          ^
 
-File "game/script.rpy", line 231: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart thinking
-    ^
+File "game/script.rpy", line 87: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
 
-File "game/script.rpy", line 243: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart coverface
-    ^
+File "game/script.rpy", line 223: expected statement.
+    <<<<<<< HEAD
+                ^
 
-File "game/script.rpy", line 255: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart neutral
-    ^
+File "game/script.rpy", line 225: expected statement.
+    =======
+          ^
 
-File "game/script.rpy", line 263: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart thinking
-    ^
+File "game/script.rpy", line 227: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
 
-File "game/script.rpy", line 267: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart neutral
-    ^
+File "game/script.rpy", line 239: expected statement.
+    <<<<<<< HEAD
+                ^
 
-File "game/script.rpy", line 273: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart worried
-    ^
+File "game/script.rpy", line 243: expected statement.
+    =======
+          ^
 
-File "game/script.rpy", line 283: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
-    show heart neutral
-    ^
+File "game/script.rpy", line 245: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
 
-File "game/script.rpy", line 291: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show heart coverface
-    ^
+File "game/script.rpy", line 311: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 314: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 317: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 361: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 363: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 366: expected statement.
+    >>>>>>> fc572823712d3622509633240508af9302c03439
+                                                    ^
+
+File "game/script.rpy", line 372: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 374: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 377: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 386: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 387: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 390: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 395: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 397: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 402: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 416: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 417: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 422: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 431: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 433: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 889: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Wed Aug 08 14:45:35 2018
-=======
-File "game/script.rpy", line 457: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    C """HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-        ^
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"""
-
-Ren'Py Version: Ren'Py 7.0.0.196
-Mon Aug 13 11:25:48 2018
->>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+Mon Aug 13 11:46:13 2018

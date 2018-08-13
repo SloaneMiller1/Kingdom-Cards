@@ -343,7 +343,7 @@ label hearttwotwo:
 $ stick = True
 hide heart coverface
 show fish fite at center
-"Your flight of fight instincts kick in and you grab the nearest object."
+"Your flight or fight instincts kick in and you grab the nearest object."
 "Which happens to be a stick."
 "Oh well work with what you have."
 "You shut your eyes and step in front of Heart and wave the stick wildly trying to hit one of the guys or scare them away."
@@ -358,7 +358,12 @@ H "Its alright dearling. You were very brave."
 jump hearttwoend
 
 label hearttwothree:
+<<<<<<< HEAD
 "Your flight and fight instinct kick in and you choose neither."
+=======
+show fish cries at center
+"Your flight or fight instinct kick in and you choose neither."
+>>>>>>> fc572823712d3622509633240508af9302c03439
 "Instead you choice to coward timidly behind Heart and screech."
 show heart fighting
 "Heart seems rather used to this and instead of cowering too like you expected she claps her hands and summons a bow."
@@ -852,33 +857,33 @@ label cloverchoiceoneend:
 
 
     #END OF CHOICE
-    "Hatter coughs kind of awkwardly."
+    #"Hatter coughs kind of awkwardly."
 
-    Ht "Well it’s getting awfully late and Im sure Fish will want to get home as soon as possible and from what I hear they have two more kingdoms to visit."
+    #Ht "Well it’s getting awfully late and Im sure Fish will want to get home as soon as possible and from what I hear they have two more kingdoms to visit."
 
-    C "Unless they wanna stay for a little while?"
+    #C "Unless they wanna stay for a little while?"
 
-    "You politely decline the offer using the excuse of wanting to get home as fast as possible."
+    #"You politely decline the offer using the excuse of wanting to get home as fast as possible."
 
-    C "seems a little put out by this but thank fully understanding."
+    #C "seems a little put out by this but thank fully understanding."
 
-    C "Well in that case I guess I’ll escort you out that way you don't get lost!"
+    #C "Well in that case I guess I’ll escort you out that way you don't get lost!"
 
-    "Oh thank God! You did not want go in that maze alone!"
+    #"Oh thank God! You did not want go in that maze alone!"
 
-    C "In fact it would probably be best if I take you all the way to the next kingdom!"
+    #C "In fact it would probably be best if I take you all the way to the next kingdom!"
 
-    Ht "Your taking her to Spade? I thought you try to avoid her?"
+    #Ht "Your taking her to Spade? I thought you try to avoid her?"
 
-    "You watch Clover’s face drop a little."
+    #"You watch Clover’s face drop a little."
 
-    C "Well...I mean...ok it’s not my fault she’s scary!!"
+    #C "Well...I mean...ok it’s not my fault she’s scary!!"
 
-    "Hatter doesn't laugh at Clover’s fear but rather nods in understanding."
+    #"Hatter doesn't laugh at Clover’s fear but rather nods in understanding."
 
-    Ht "That they are, Well it’s probably for the best you escort Fish to her. Lord knows what she’d do otherwise."
+    #Ht "That they are, Well it’s probably for the best you escort Fish to her. Lord knows what she’d do otherwise."
 
-    "Your suddenly feeling a lot less confident….."
+    #"Your suddenly feeling a lot less confident….."
 
 #CHAPTER 2 END
 >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
