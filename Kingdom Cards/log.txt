@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Thu Aug 09 13:02:56 2018
+=======
+Thu Aug 09 15:43:19 2018
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.23s
 Early init took 0.01s
 Loader init took 0.11s
@@ -16,17 +21,37 @@ Loading analysis data took 0.08s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Dump and make backups. took 0.22s
+=======
+Bootstrap to the start of init.init took 0.20s
+Early init took 0.01s
+Loader init took 0.12s
+Loading error handling took 0.07s
+Loading script took 0.26s
+Loading save slot metadata. took 0.06s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.21s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.19s
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
 DPI scale factor: 1.500000
+<<<<<<< HEAD
 Creating interface object took 0.12s
+=======
+Creating interface object took 0.15s
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
 Cleaning stores took 0.00s
 Init translation took 0.07s
 Build styles took 0.02s
 Load screen analysis took 0.05s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
+<<<<<<< HEAD
 Prepare screens took 0.19s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
@@ -36,6 +61,16 @@ Interface start took 0.07s
 Couldn't import angle renderer:
 Traceback (most recent call last):
   File "C:\Users\Girls Who Code\Downloads\renpy-7.0.0-sdk\renpy\display\core.py", line 1901, in make_draw
+=======
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.05s
+Couldn't import angle renderer:
+Traceback (most recent call last):
+  File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\display\core.py", line 1901, in make_draw
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
     __import__(mod)
 ImportError: DLL load failed: The specified module could not be found.
 Unknown renderer: angle
@@ -280,6 +315,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
 Total time until interface ready: 3.46299982071s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -295,10 +331,16 @@ Windowed mode.
 Screen sizes: virtual=(1920, 1080) physical=(1920, 986) drawable=(1920, 986)
 Cleaning stores took 0.00s
 Init translation took 0.43s
+=======
+Total time until interface ready: 2.67299985886s
+Cleaning stores took 0.00s
+Init translation took 0.42s
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
 Build styles took 0.04s
 Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
+<<<<<<< HEAD
 Running _start took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.49s
@@ -336,3 +378,6 @@ Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
 The window was minimized.
+=======
+Running _start took 0.01s
+>>>>>>> 8d18a48d0bb7628f92a620e8c9e27233fd9611e8
