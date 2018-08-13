@@ -2,6 +2,7 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/script.rpy", line 82: expected statement.
     <<<<<<< HEAD
                 ^
@@ -124,3 +125,11 @@ File "game/script.rpy", line 889: expected statement.
 
 Ren'Py Version: Ren'Py 7.0.0.196
 Mon Aug 13 11:46:13 2018
+=======
+File "game/script.rpy", line 405: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
+    label cloverstart:
+    ^
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Mon Aug 13 13:13:39 2018
+>>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
