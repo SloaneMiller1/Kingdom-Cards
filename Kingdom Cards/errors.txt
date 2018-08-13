@@ -2,12 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 457: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    C """HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-        ^
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-        TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"""
+File "game/script.rpy", line 405: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
+    label cloverstart:
+    ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Mon Aug 13 11:25:48 2018
+Mon Aug 13 13:13:39 2018
