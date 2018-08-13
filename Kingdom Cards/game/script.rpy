@@ -334,7 +334,7 @@ label hearttwotwo:
 $ stick = True
 hide heart coverface
 show fish fite at center
-"Your flight of fight instincts kick in and you grab the nearest object."
+"Your flight or fight instincts kick in and you grab the nearest object."
 "Which happens to be a stick."
 "Oh well work with what you have."
 "You shut your eyes and step in front of Heart and wave the stick wildly trying to hit one of the guys or scare them away."
@@ -351,14 +351,14 @@ jump hearttwoend
 
 label hearttwothree:
 show fish cries at center
-"Your flight and fight instinct kick in and you choose neither."
+"Your flight or fight instinct kick in and you choose neither."
 "Instead you choice to coward timidly behind Heart and screech."
 show heart fighting at right
 "Heart seems rather used to this and instead of cowering too like you expected she claps her hands and summons a bow."
 "She points it towards one of the men before releasing an arrow of pink energy into his chest and it’s ricochets off trees until all three men are down"
 H "Morons…"
 show heart worried at right
-show fish shock at center
+show fish scawy at center
 H "Oh gosh are you alright that must have been so scary!"
 "...you make the decisions to never piss off Heart...ever…"
 jump hearttwoend
@@ -399,15 +399,14 @@ show heart neutral at right
 H "Well here we are! Welcome to the Clover kingdom!"
 
 scene bg hearted
-
+"    "
 jump cloverstart
 
-label gameover:
-
-    scene bg gamover
-    "   "
-    label cloverstart:
+label cloverstart:
+    scene bg clotown
     "You arrive and look up and..."
+    show heart neutral at right
+    show fish normal at left
     "Honestly you're not even sure you left the forest."
 
     "This looks to be more of a clearing in the forest than a kingdom."
@@ -418,6 +417,7 @@ label gameover:
 
     H "Watch where you walk now the people of Clover’s Kingdom tend to move incredibly fast under foot."
 
+    show fish cries at left
     "You again cling onto heart’s skirt as she gently guides you through the town where animals seem to be running back and forth."
 
     "She guides you towards clear through the town and between a walkway made of tall bushes."
@@ -427,7 +427,9 @@ label gameover:
     "You can feel dread rising in your stomach. You suck at mazes."
 
     "You should really try to remember how heart got you in the maze in case you have to get out on your own."
-
+    scene  bg maze
+    show heart neutral at right
+    show fish normal at left
     "Heart leads you through the maze."
 
     "She makes a left turn, then she goes forward then she makes two right turns and another left turn."
@@ -435,33 +437,39 @@ label gameover:
     "Alright you seem to be keeping a pretty good track of where you guy are headed."
 
     "Now if you could just shake off the feeling that you two are being follow that would be gre-"
-
+    show fish shock at left
     "You spot a pair of green eyes in the bush and start shaking and tugging on hearts skirt."
-
+    show heart coverface at right
     H "What’s wrong Fish?"
 
     "You point towards the eyes only to find them gone."
 
     "And that is very scary, like on no longer being able to find a spider you saw 2 minutes ago scary!"
-
+    show fish confused at left
     "You begin to cling to heart’s arm a bit like a koala (are there koalas here?) while she attempts to remove you."
-
+    show heart scolding at right
     H "Fish, for Jokers sakes what's wrong?!"
 
     "You continue pointing spastically towards the bushes that once held the glowing greens eyes trying to get her to see your worry until something else catches your attention."
-
+    show fish normal at left
     "Its...a sound? A faint sound but its slowly growing louder."
 
     "It almost sounds like-"
+
+    show clover blur at center
 
     C "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
     C "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
     C "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
+    hide clover blur
+    hide heart scolding
+    show fish shock at center
     "You turn towards the sound of the noise and see a blur of red and green tackle heart to the ground."
 
     "Rather than doing the sensible thing of crying or screaming heart merrily starts to laugh"
-
+    show clover hugging at center
+    show fish confused at left
     H "Hello there Little Clo Clo. Must you do that everytime you see me? You’ll break me back one of these days"
 
     C "I know I know but...AAAA IT’S BEEN TOO LONG I MISSED YOU!!"
@@ -469,9 +477,11 @@ label gameover:
     "The green and red child puts Heart in a choke hold of a hug while heart once again seems unfazed as though its a normal thing for her."
 
     "This goes on for a while before Clover finally takes notice of you."
-
+    show heart neutral at right
+    show clover excited at center
     C "Ooooh you brought a friend?! Are they one of Spade’s? They look like one of Spades with the weird eyes and lips and hair and-"
 
+    show heart scolding at right
     H "Clover it’s not nice to insult someone! This is Fish they came through the Well and they need the keys to get back through it."
 
     C "Oooooooh...they’re an outsider. Weird they don’t look anything like Alice."
@@ -483,11 +493,12 @@ label gameover:
     "Maybe she’ll travel with you through the rest of the kingdoms."
 
     "Then you’re sure to stay safe."
-
+    show clover excited at center
     C "Oh! Heart are you going to stay? I haven’t seen you in so long and I really wanna have another tea party."
 
     C "...preferably one that doesn’t end like last time.."
 
+    show heart worried at right
     H "I’m sorry Clover but I only came to leave Fish with you. I’ve already been gone an hour and my people aren't the most….self reliant."
 
     "Noooo!! there goes your chance of a worry free trip."
@@ -497,7 +508,7 @@ label gameover:
     "Clover starts stomping her feet and pouting and you begin to question if she’s really the ruler of an entire kingdom."
 
     "Heff she barely looks any older than twelve."
-
+    show heart scolding at right
     H "Clover, that kind of behavior doesn’t get you anywhere with me you know that."
 
     "How Heart manages to remain so passive when faced with a child like Clover you’re not quite sure."
@@ -505,28 +516,28 @@ label gameover:
     C "....It works with Hatter."
 
     H "Then I’ll have to talk with him about that. In the meantime take care of Fish and please do try to reconcile with diamond."
-
+    show heart coverface at right
     H "I don’t blame you for their choices but...at least try to reconcile."
 
     "Clover sees off put by this and he pout turns more into an expression of shame."
 
     "You think it’s best to not bring that up around her."
-
+    show heart neutral at right
     "Heart pats you on the head as if you were a child before walking away."
-
+    hide heart neutral
     C "So you want the Clover key right?"
-
+    show fish smiles at left
     "You nod enthusiastically and hold out your hands wanting to just take the key and leave."
 
     "Clover looks at your outstretched hands and laughs"
 
     C "Well I can’t give you the key right now! I’m not so young that I don’t understand the key rules!"
-
+    show fish confused at left
     "You lower your hands and tilt your head asking what the Key Rules are."
 
     C "Huh? You don’t know them? I thought for sure Heart would’ve explained them before putting you through the trials."
-
-    "What trails?!"
+    show fish shock at left
+    "What trials?!"
 
     C "She didn’t make you do the trails?! Ugh that is so unfair how come she gets to bend the rules and I don’t?!"
 
@@ -545,27 +556,27 @@ label gameover:
     C "Yeah I think Heart pitied you a lot."
 
     C "So more than likely she’ll make up an excuse about how she tested you with something really insufficient."
-
+    show fish cries at left
     "Oh...Well you are not sure how to feel about that. On one hand you’re thankful for her not making you fight but on the other hand the pity kinda stings."
-
+    show fish smiles at left
     "No matter! You are perfectly capable of whatever trial a twelve year old can cook up."
 
     C "So traditionally I think the Kingdom Clover used to make people get safely through the maze."
-
+    show fish confused at left
     "…...except that…."
 
     C "But a maze would be kinda boring and you already came through it once with Heart."
 
     C "So I’m thinking…….."
-
+    show clover excited at right
     C "A BATTLE!!!!!!!!!!!!!!!!!!!!!!!"
-
-    "………..what?"
+    show fish scawy at left
+    "………what?"
 
     C "Yes a battle would be prefect!"
 
     C "It’ll be the perfect chance to practice if I have to battle against an enemy!"
-
+    show fish cries at left
     "So you are just her practice dummy?"
 
     "Why does that scare you so much?"
@@ -579,7 +590,10 @@ label gameover:
     C "Here it is!"
 
     "She pushes the gates open with a both hands in an over dramatic movement and you suddenly regret everything."
-
+    show fish normal at left
+    scene bg arena
+    show clover excited at right
+    show fish normal at left
     "The arena is a large field of grass shaped like a giant four leafed clover with weapons littering the outer edges."
 
 if stick:
@@ -587,15 +601,18 @@ if stick:
     C "I would offer you a weapon but I think you're pretty good with that stick of yours so I’ll use a stick too!"
 
     C "That way it’s fair!"
-
-    "You nod. That does sems fair and non lethal- DEAR GOD WHY DOES SHE HAVE A TREE BRANCH?!"
+    show fish lies at left
+    "You nod. That does sems fair and non lethal-"
+    show fish scawy at left
+    show clover branch at right
+    "DEAR GOD WHY DOES SHE HAVE A TREE BRANCH?!"
 
     "Clover had apparently thought that a fallen tree branch two times both of your sizes was the same as your little stick."
 
     "Before you get a chance to argue she smiles with way too much joy for a girl about to fight"
 
     C "Ready...set….go!"
-
+    show fish nyoom at left
     "She takes a wild swing at you and you dodge to the best of your ability somehow not managing to get hit"
 
     "She swings again this time throwing the branch at you as well"
@@ -603,7 +620,8 @@ if stick:
     "That manages to hit you."
 
     "The branch knocks you bad but thankfully you scamper away from it easily"
-
+    show fish fite at center
+    hide clover branch
     "Clutching your stick tighter you start to swing it wildly while screeching and running towards Clover."
 
     "And when you open your eyes again."
@@ -614,16 +632,17 @@ if stick:
     jump stickend
 
 else:
+    show clover excited at right
     "Clover drags you over to a stack of weapons and smiles at you way too innocently for someone who just dragged you to a sky high pile of weapons."
-
+    hide clover excited
     C "Here feel free to pick a weapon!"
 
     "You feel your hands start to get all sweaty as you start shifting through the pile."
-
+    show fish cries at center
     "You’re not even sure what half these weapons are a lot of them look like they were made to used by giants."
 
     "Which honestly you wouldn't doubt at this point."
-
+    show fish smiles at center
     "You reach the bottom of the pile before you find...a little dagger!"
 
     "This is perfect just your size and you know how to use it."
@@ -631,7 +650,7 @@ else:
     "You are quick to snatch up the dagger and head towards the center of the arena where Clover is waiting."
 
     C "Alright are you ready?"
-
+    show fish attacc at left
     "You nod and mimic a fighting stance."
 
     C "Alright Ready...Set….."
@@ -643,17 +662,19 @@ else:
     "Clover forms her hands into the symbol of a club before clapping them together similar to how heart summoned her bow. As she does this the light from the clap begins to form….oh god no!"
 
     "You feel yourself having a mini flashback to Heart explaining how every Suite Ruler has a unique Weapon."
-
+    show fish scawy at left
+    show clover bombs at right
     "And it appears that Clover’s….are bombs."
 
     "You barely get a chance to run before Clover is hurling a bomb straight at you."
-
+    show fish nyoom
     "You barely manage to dodge before she hurdles another and another and another."
 
     "You have no idea how you’re going to survive this. Clover doesn't seem like the type to kill you on purpose. Then again she does seem highly accident prone."
 
     "You dodge one final time before it seems like Clover ran out of bombs."
-
+    hide clover bombs
+    show fish attacc at center
     "Taking the opportunity you run towards her with your dagger and start slashing wildly with your eyes closed"
 
     "When you open them again you haven't landed a single hit on her….and yet she's lying on the grass"
@@ -664,7 +685,7 @@ label stickend:
     C "that was really scary…"
 
     "Oh god no she’s crying!"
-
+    show fish cries at left
     "You drop the stick and scamper over to her hugging her and patting her head gently."
 
     C "Im sorry!  I didn’t really wanna fight you but I thought you would treat me more seriously if the trial was more risky."
@@ -674,25 +695,27 @@ label stickend:
     C "Here. Take the key you were at least brave enough to try and fight me even if we didn’t finish it."
 
     "You gratefully take the key from her and stand up pulling her up with you."
-
+    show fish lies at left
     C "Thank you….Hey do you wanna have a tea party?"
-
+    show fish confused at left
     "Your a bit taken back by the question and your face must’ve given away your confusion."
 
     C "Yeah I haven’t had one with anyone who isn’t already a part of the Clover Kingdom since well….you know."
-
+    show fish cries at left
     "Oh that's right you forgot that there was a war going on and that Clover was a leader during that war."
 
     C "So what do you say? Is that a yes?"
-
+    show fish thinkie at left
 
 menu:
     "Sure why not?":
+        show fish smiles at left
         "Clovers mood seems to shift incredible fast as she begins to jump up and down holding you hands."
+
         jump cloverchoiceoneend
     "I’m sorry I have to keep going":
         C "Oh...its ok I understand"
-
+        show fish cries at left
         "Oh god no she’s tearing up again!"
 
         "You quickly change your answer to an overwhelming yes which seems to put a smile back on her face."
@@ -725,6 +748,8 @@ label cloverchoiceoneend:
 
     "She comes to an abrupt halt and you slam into her back though she doesn’t seems to flinch."
 
+    scene bg pinic
+
     "You stand outside the gates of yet another clearing with a low table and pillows on the ground."
 
     "The table is littered with foods you’ve never seen and at the end of the table in an odd man."
@@ -755,82 +780,79 @@ label cloverchoiceoneend:
 
     "It seems Clover really is avoiding this topic at all cost. Your insanely curious to figure out why but you also don’t want her to get angry at you."
 
+menu:
 
-    #2ND CHOICE CLOVER
+    "Ask her to tell you more about the War":
 
-    #1. Ask her to tell you more about the War
+        "You do your best to ask about war without sounding insensitive"
 
-    #"You do your best to ask about war without sounding insensitive"
+        "You think you do a good job of it but the way she shrinks seems to tell you otherwise"
 
-    #"You think you do a good job of it but the way she shrinks seems to tell you otherwise"
+        "You quickly attempt to take about your question but-"
 
-    #"You quickly attempt to take about your question but-"
+        C "No..it’s fine...You should at least know whats going on if you end up walking into one of the battle zones."
 
-    #C "No..it’s fine...You should at least know whats going on if you end up walking into one of the battle zones."
+        "She sets down her cup as does the Hatter."
 
-    #"She sets down her cup as does the Hatter."
+        C "Heart probably already told you that we have 4 kingdoms for each of the Card Suits."
 
-    #C "Heart probably already told you that we have 4 kingdoms for each of the Card Suits."
+        C "Well one of those suits is Diamond and they are a few years older than me."
 
-    #C "Well one of those suits is Diamond and they are a few years older than me."
+        C ".....a while ago they asked if I would date them."
 
-    #C ".....a while ago they asked if I would date them."
+        C "I didn't want to hurt their feelings so I said yes but I couldn’t do it for long and I broke it off after the second date."
 
-    #C "I didn't want to hurt their feelings so I said yes but I couldn’t do it for long and I broke it off after the second date."
+        C "They….They did not take it well."
 
-    #C "They….They did not take it well."
+        C "They declared war on my kingdom and when Heart tried to step in they declared war on her and Spade too."
 
-    #C "They declared war on my kingdom and when Heart tried to step in they declared war on her and Spade too."
+        C "And know everyone and fighting and no one trusts me anymore to do anything...I guess it makes sense this is all my fault…."
 
-    #C "And know everyone and fighting and no one trusts me anymore to do anything...I guess it makes sense this is all my fault…."
+        "Oh, now it makes more sense why she wanted to be taken seriously."
 
-    #"Oh, now it makes more sense why she wanted to be taken seriously."
+        "That doesn't seem very fair to you! It’s not Clover’s fault it’s not like she could make DIamond not declare a war!"
 
-    #"That doesn't seem very fair to you! It’s not Clover’s fault it’s not like she could make DIamond not declare a war!"
+        "And besides if the other kingdoms think anyone is immature and untrustworthy it should be Diamond and not Clover."
 
-    #"And besides if the other kingdoms think anyone is immature and untrustworthy it should be Diamond and not Clover."
+        "Clover seems to relax a bit more at your affirmation thought you can tell it’s still eating at her."
 
-    #"Clover seems to relax a bit more at your affirmation thought you can tell it’s still eating at her.""
+        "You decide to take a page from Heart’s book and hug her in hopes of it making her feel better."
 
-    #You decide to take a page from Heart’s book and hug her in hopes of it making her feel better.
+        "She hugs you back and the hug only lasts a short time but she already looks to be in a better mood."
+        jump cloverchoicetwoend
 
-    #She hugs you back and the hug only lasts a short time but she already looks to be in a better mood.
+    "Change the topic to something happier":
 
-    #2. Change the topic to something happier
+        "You panic and quickly switch the topic to the first thing you see"
 
-    #"You panic and quickly switch the topic to the first thing you see"
+        "Which happens to be the Mad Hatter so you ask him to tell you more about himself."
 
-    #"Which happens to be the Mad Hatter so you ask him to tell you more about himself."
+        "Clover groans at slams her face into her hands at this but Hatter’s face lights up."
 
-    #"Clover groans at slams her face into her hands at this but Hatter’s face lights up."
+        Ht "Ah well you see I was born on a lovely summer day during the year of the time when all the stars were aligned to the port side of the sky"
 
-    #Ht "Ah well you see I was born on a lovely summer day during the year of the time when all the stars were aligned to the port side of the sky"
+        "OH dear god what have you done?"
 
-    #OH dear god what have you done?
+        "You can not escape this"
 
-    #You can not escape this
+        "You can’t escape the long awkward and boring conversation."
 
-    #You can’t escape the long awkward and boring conversation.
+        "You are forever trapped here along with Clover and she doesn’t look too happy about it."
+        jump gameover
 
-    #You are forever trapped here along with Clover and she doesn’t look too happy about it.
+    "Sip your tea":
+        "You take the longest sip of  tea known to mankind."
 
-    #GAMEOVER
+        "You sip until the cup is empty then you refill it and sip again."
 
-    #3. Sip your tea
+        "Wow this is a crazy long sip."
 
-    #"You take the longest sip of  tea known to mankind."
+        "But thankfully Hatter and Clover seem to be talking about something else so good for you for not making a choice!"
 
-    #"You sip until the cup is empty then you refill it and sip again."
+        "They keep talking and ask you question from time to time and you do your best to keep your face full of food or tea to keep talking to a minimum."
+        jump cloverchoicetwoend
 
-    #"Wow this is a crazy long sip."
-
-    #"But thankfully Hatter and Clover seem to be talking about something else so good for you for not making a choice!"
-
-    #"They keep talking and ask you question from time to time and you do your best to keep your face full of food or tea to keep talking to a minimum."
-
-
-
-    #END OF CHOICE
+label cloverchoicetwoend:
     "Hatter coughs kind of awkwardly."
 
     Ht "Well it’s getting awfully late and Im sure Fish will want to get home as soon as possible and from what I hear they have two more kingdoms to visit."
@@ -858,5 +880,11 @@ label cloverchoiceoneend:
     Ht "That they are, Well it’s probably for the best you escort Fish to her. Lord knows what she’d do otherwise."
 
     "Your suddenly feeling a lot less confident….."
+
+label gameover:
+
+    scene bg gamover
+    "   "
+
 
 #CHAPTER 2 END
