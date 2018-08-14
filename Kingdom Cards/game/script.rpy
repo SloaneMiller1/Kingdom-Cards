@@ -771,7 +771,8 @@ label cloverchoiceoneend:
     Ht "Ah! Clover! I knew you’d be coming!"
 
     C "Hi Hatter! I brought a friend look!"
-
+    show clover excited at right
+    show fish squish at left
     "Clover squishes your cheeks together and you try to protest that your not a puppy dog."
 
     Ht "Hm...I see...what an odd little creature they would be right at home here I am sure!"
