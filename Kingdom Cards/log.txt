@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Mon Aug 13 15:35:52 2018
+=======
+Tue Aug 14 11:20:33 2018
+>>>>>>> 24d9c227791a876dfacee2e96afb57e34a56b516
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 1.17s
 Early init took 0.03s
 Loader init took 0.45s
@@ -159,6 +164,40 @@ Interface start took 2.73s
 Couldn't import angle renderer:
 Traceback (most recent call last):
   File "C:\Users\Girls Who Code\Desktop\renpy-7.0.0-sdk\renpy\display\core.py", line 1901, in make_draw
+=======
+Bootstrap to the start of init.init took 0.22s
+Early init took 0.02s
+Loader init took 0.17s
+Loading error handling took 0.31s
+Loading script took 1.41s
+Loading save slot metadata. took 0.32s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.42s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.26s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.500000
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.04s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.06s
+Couldn't import angle renderer:
+Traceback (most recent call last):
+  File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\display\core.py", line 1901, in make_draw
+>>>>>>> 24d9c227791a876dfacee2e96afb57e34a56b516
     __import__(mod)
 ImportError: DLL load failed: The specified module could not be found.
 Unknown renderer: angle
@@ -392,6 +431,7 @@ Extensions:
     GL_SUN_multi_draw_arrays
     GL_WIN_swap_hint
 Number of texture units: 8
+<<<<<<< HEAD
 Using shader environment.
 Using copy RTT.
 Using gl renderer.
@@ -404,3 +444,6 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 Total time until interface ready: 17.0889999866s
+=======
+Using s
+>>>>>>> 24d9c227791a876dfacee2e96afb57e34a56b516
