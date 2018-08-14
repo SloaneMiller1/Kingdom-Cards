@@ -1,15 +1,15 @@
-Mon Aug 13 11:46:10 2018
+Mon Aug 13 15:35:52 2018
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
  
 
-Bootstrap to the start of init.init took 0.91s
+Bootstrap to the start of init.init took 1.17s
 Early init took 0.03s
-Loader init took 0.37s
-Loading error handling took 0.29s
-Loading script took 2.08s
-Loading save slot metadata. took 0.66s
-Loading persistent took 0.00s
+Loader init took 0.45s
+Loading error handling took 0.33s
+Loading script took 3.55s
+Loading save slot metadata. took 0.43s
+Loading persistent took 0.02s
 
 File "game/script.rpy", line 82: expected statement.
     <<<<<<< HEAD
@@ -79,59 +79,83 @@ File "game/script.rpy", line 374: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 377: expected statement.
-    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
-                                                    ^
-
-File "game/script.rpy", line 386: expected statement.
+File "game/script.rpy", line 376: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 387: expected statement.
+File "game/script.rpy", line 378: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 379: expected statement.
     =======
           ^
+
+File "game/script.rpy", line 381: expected statement.
+    >>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
+                                                    ^
 
 File "game/script.rpy", line 390: expected statement.
-    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
-                                                    ^
-
-File "game/script.rpy", line 395: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 397: expected statement.
+File "game/script.rpy", line 391: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 402: expected statement.
+File "game/script.rpy", line 394: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 
-File "game/script.rpy", line 416: expected statement.
+File "game/script.rpy", line 399: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 417: expected statement.
+File "game/script.rpy", line 401: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 422: expected statement.
+File "game/script.rpy", line 406: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 
-File "game/script.rpy", line 431: expected statement.
+File "game/script.rpy", line 420: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 433: expected statement.
+File "game/script.rpy", line 421: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 889: expected statement.
+File "game/script.rpy", line 426: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 430: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 436: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 438: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 441: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 448: expected statement.
+    >>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
+                                                    ^
+
+File "game/script.rpy", line 933: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 DPI scale factor: 1.500000
-Interface start took 0.75s
+Interface start took 2.73s
 Couldn't import angle renderer:
 Traceback (most recent call last):
   File "C:\Users\Girls Who Code\Desktop\renpy-7.0.0-sdk\renpy\display\core.py", line 1901, in make_draw
@@ -379,4 +403,4 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 9.71399998665s
+Total time until interface ready: 17.0889999866s

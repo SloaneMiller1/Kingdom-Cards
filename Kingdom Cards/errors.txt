@@ -2,7 +2,6 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
 File "game/script.rpy", line 82: expected statement.
     <<<<<<< HEAD
                 ^
@@ -71,65 +70,81 @@ File "game/script.rpy", line 374: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 377: expected statement.
-    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
-                                                    ^
-
-File "game/script.rpy", line 386: expected statement.
+File "game/script.rpy", line 376: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 387: expected statement.
+File "game/script.rpy", line 378: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 379: expected statement.
     =======
           ^
+
+File "game/script.rpy", line 381: expected statement.
+    >>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
+                                                    ^
 
 File "game/script.rpy", line 390: expected statement.
-    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
-                                                    ^
-
-File "game/script.rpy", line 395: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 397: expected statement.
+File "game/script.rpy", line 391: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 402: expected statement.
+File "game/script.rpy", line 394: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 
-File "game/script.rpy", line 416: expected statement.
+File "game/script.rpy", line 399: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 417: expected statement.
+File "game/script.rpy", line 401: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 422: expected statement.
+File "game/script.rpy", line 406: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 
-File "game/script.rpy", line 431: expected statement.
+File "game/script.rpy", line 420: expected statement.
     <<<<<<< HEAD
                 ^
 
-File "game/script.rpy", line 433: expected statement.
+File "game/script.rpy", line 421: expected statement.
     =======
           ^
 
-File "game/script.rpy", line 889: expected statement.
+File "game/script.rpy", line 426: expected statement.
+    >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
+                                                    ^
+
+File "game/script.rpy", line 430: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 436: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 438: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 441: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 448: expected statement.
+    >>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
+                                                    ^
+
+File "game/script.rpy", line 933: expected statement.
     >>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
                                                     ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Mon Aug 13 11:46:13 2018
-=======
-File "game/script.rpy", line 405: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
-    label cloverstart:
-    ^
-
-Ren'Py Version: Ren'Py 7.0.0.196
-Mon Aug 13 13:13:39 2018
->>>>>>> 077f360f9701d05ba339d1e1b4cfe1b381b0882a
+Mon Aug 13 15:35:57 2018
