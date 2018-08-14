@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 405: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation.
-    label cloverstart:
+File "game/script.rpy", line 690: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    C "that was really scary…"
     ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Mon Aug 13 13:13:39 2018
+Tue Aug 14 11:09:57 2018
