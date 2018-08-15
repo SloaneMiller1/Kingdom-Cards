@@ -1,11 +1,27 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
+While running game code:
+  File "game/script.rpy", line 269, in script
+    jump gameover
+ScriptError: could not find label 'gameover'.
+=======
 While loading <'Image' u'gui/main_menu.png'>:
 IOError: Couldn't find file 'gui/main_menu.png'.
+>>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
+  File "game/script.rpy", line 269, in script
+    jump gameover
+  File "C:\Users\Girls Who Code\Documents\Kingdom Cards\renpy-7.0.0-sdk\renpy\ast.py", line 1600, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Girls Who Code\Documents\Kingdom Cards\renpy-7.0.0-sdk\renpy\script.py", line 873, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'gameover'.
+=======
   File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
     python hide:
   File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\ast.py", line 862, in execute
@@ -55,8 +71,13 @@ Full traceback:
   File "C:\Users\Girls Who Code\Documents\Renpy\renpy-7.0.0-sdk\renpy\loader.py", line 555, in load
     raise IOError("Couldn't find file '%s'." % name)
 IOError: Couldn't find file 'gui/main_menu.png'.
+>>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
 Kingdom Cards 1.0
+<<<<<<< HEAD
+Wed Aug 08 13:40:38 2018
+=======
 Thu Aug 09 14:17:26 2018
+>>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f

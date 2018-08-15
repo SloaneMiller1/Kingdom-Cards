@@ -43,8 +43,7 @@ label start:
     Du "-Of the Heart Queen’s bodyguards!"
 
     scene bg heartcastle
-    show deeanddum neutral at left
-    show fish confused at center
+    show deeanddum neutral
     "You sit up instantly and look to see these so called bodyguards are…..actually really tiny."
 
     "Like 3 feet tall levels of tiny"
@@ -59,15 +58,13 @@ label start:
     De "Hey you-"
     Du "What is your name?"
 
-    "Your name? Well dang you’re far too embarrassed to admit that you have no idea what it is anymore. You must’ve bumped your head when you got here."
+    "Your name? Well dang you’re far too embarrassed to admit that you have no idea what it is anymore. You must’ve bumped your heading when you got here."
 
     "Well you cant let them see your obvious stupidity so you blurt out the first word you can think of!"
 
     "And that word is Fish…"
 
     "Your name is now Fish ???? And you have no idea what is going on"
-
-    show deeanddum fighting at left
 
     Du "SEE! I told you they were a fish!"
     De "Fishes don’t have legs stupid!"
@@ -84,25 +81,23 @@ label start:
     "Oh god, that sounds like an actual adult you break into a full sprint when on of the twins sticks their weapon in front of your feet causing you to hit the ground face first while the other throws a net over you"
     show fish net at center
     show deeanddum neutral at left
+>>>>>>> 477204cf989a77bce531ba1c4eff6ed23b3a376f
     De "Yes Ma’am"
     Du "We caught em!"
 
     "You see the bushes around you rustle and prepare for the worst."
 
-    show heart worried at right
+    show heart worried
 
     H "Oh thank god what is it-"
 
-    show heart shocked at right
+    show heart shocked
 
     H "Oh what did you do to the poor creature!? The poor dear looks scared witless!"
 
-    show fish cries at center
-    show deeanddum scolded
-
     "Like you children being scolded (which you guess they kinda are) they quickly remove the net and scramble in front of you and the lady."
 
-    show heart scolding at right
+    show heart scolding
 
     H "There we are now. Honestly you two! I told you to be nice to whatever it was, I bet you two started fighting too didn’t you?"
 
@@ -113,30 +108,27 @@ label start:
     De "Wanted to have some fun!"
 
     "They pout like small children and definitely not like bodyguards of queen- WAIT IS THAT THE QUEEN?!"
-
     "You don’t realize you are gawking until you see her look up and giggle presumably at you."
 
     "She waves the two twins away before sitting down in front of you."
     hide deeanddum scolded
 
-    show heart neutral at right
+    show heart neutral
 
     "Heart: So your name is Fish? An odd name then again I suppose mine is fair weirder."
 
     "Your not sure what she means by a weird name I mean it’s not like she’s name heart….right???"
 
-    show fish smiles at left
+    show heart worried
 
-    show heart worried at right
-
-    H "In any case are you alright? You look like you got hurt. I hope it wasn’t the twins."
+    "Heart: In any case are you alright? You look like you got hurt. I hope it wasn’t the twins."
 
     "Your arm has been hurting since you woke up here. As have your other senses but you don’t want her to know that!"
 
     "For one you don’t want her to worry about you and you also don’t wanna look too weak in case she’s dangerous."
 
     "Then again she did witness you get taken down by two 3 foot tall kids. -_-"
-    show fish thinkie at left
+
     menu:
 
         "Oh yeeeeeaaaaah I’m tooooootally fiiiiiiine!":
@@ -147,20 +139,20 @@ label start:
             jump heartonethree
 
 label heartoneone:
-    show fish lies at left
+    show fish owo at left
     "You plaster on a huge smile in hopes of fooling her but alas it doesn't seem to work as she casts you a mildly disapproving glare."
 
-    show heart scolding at right
+    show heart thinking
 
     H "Lying won’t do you any good. You’ve been squinting and clutching your arm the entire time you’ve been standing in front of me."
-    show fish cries at left
+
     "Wow she actually noticed that? Now you feel really bad for lying"
     jump heartoneend
 
 label heartonetwo:
     "You spill about all your injuries including the odd way you were reacting to the world around you."
-    show fish cries at left
-    show heart coverface at right
+
+    show heart coverface
 
     "Heart seems to nod a few times before pulling you into a gentle embrace"
 
@@ -173,8 +165,9 @@ label heartonetwo:
 
 label heartonethree:
     "You panic and start making random noises similar to an angry dying cat."
-    show fish confused at left
-    show heart neutral at right
+
+    show heart neutral
+
     "Surprisingly this doesn’t seems to phase Heart as she simply smiles and shakes her head."
 
     H "I’m gonna take that as a busted arm and sensory/information overload correct?"
@@ -184,13 +177,13 @@ label heartonethree:
 
 label heartoneend:
 
-    show heart thinking at right
+    show heart thinking
     H "Well Sensory overload is usually common when an outsider comes down here to visit."
 
 H "Most of our citizens are accustomed to the energy surges that flow through everything we tend to forget it’s a hard thing to adjust to."
 
 H "I can take care of that and your arm if you’d kindly follow me inside?"
-show fish confused at left
+
 "Inside? Inside where?"
 
 H "Inside my castle of course."
@@ -198,12 +191,12 @@ H "Inside my castle of course."
 "She point upwards and you turn you gaze to see an enormous castle sprouting towards the sky."
 
 "How had you missed that earlier?!"
-show fish smiles at left
+
 "Heart grabs the arm that isn’t in pain and she drags you inside."
 
 scene bg thronebed
-show fish confused at left
-show heart thinking at right
+
+show heart thinking
 
 "As soon as you hit the inside of the castle’s wire gates your find your drowning in the smell of chocolate and roses."
 
@@ -212,9 +205,10 @@ show heart thinking at right
 "You can feel yourself stumbling up a set of stairs and through a door."
 
 "When you reopen your eyes your in a sitting room with a plate of cookies labelled ‘eat me’ and a mug labelled ‘drink me’."
+
 "It seems incredible suspicious."
 
-show heart neutral at right
+show heart neutral
 
 H "Here have a seat while I get something for your arm. Feel free to eat the cookies of the coco it’ll help with your sensory problems."
 
@@ -223,7 +217,6 @@ H "Here have a seat while I get something for your arm. Feel free to eat the coo
 "You are still a bit skeptical but Heart seems to notice this and takes a big out of one of the cookies before leaving."
 
 hide heart neutral
-show fish smiles at left
 "Seems good enough for you!"
 show fish nomnom at left
 "You take a huge chop out of one of the cookies and a huge drink from the mug."
@@ -232,7 +225,7 @@ show fish nomnom at left
 
 "Man this stuff is awesome."
 
-show heart thinking at right
+show heart thinking
 
 "While you keep shoving your face with cookies Heart comes back and grabs your hurt arm."
 
@@ -240,12 +233,12 @@ H "Alright now this just goes on like this and….done!"
 "She slides what looks like a flexible cast over your arm that makes it not hurt as much when you move it."
 "You thank her though it sounds more like garbles since there’s still cookie in your mouth"
 
-show heart scolding at right
+show heart scolding
 
-H "You’re very welcome- mouth closed while you chew please."
+"Heart: You’re very welcome- mouth closed while you chew please."
 
-show heart thinking at right
-show fish cries at left
+show heart thinking
+
 H "Now then seeing as you came through the well I can assume that you’re looking for a way home?"
 
 "You nod though you don't actually remember where home is or what home is but hey you wont tell her that."
@@ -256,7 +249,7 @@ H "Its a safety measure we installed to ensure that no one from here can leak in
 
 "Judging from her grimace it must not have been pretty so you spare her the pain of asking about it."
 
-show heart coverface at right
+show heart coverface
 
 H "Now I’m more than capable of handing you mine but as for the others you may find it...difficult to reach them."
 
@@ -268,7 +261,7 @@ H "You see we’re all a bit...tense at the moment."
 
 H "Goodness I didn’t think they were this close already."
 
-show heart neutral at right
+show heart neutral
 
 "She suddenly stands and flashes you a tense smile."
 
@@ -276,27 +269,27 @@ H "Well…. we do want to get you home as soon as possible. I’m sure your fami
 
 H "Clover’s Kingdom is the closest to mine so that’s best where you start!"
 
-show heart thinking at right
+show heart thinking
 
 H "Oh but of course it won’t be safe to send you off alone. Clover’s Kingdom is uneasy at the moment."
 
-show heart neutral at right
+show heart neutral
 
 H "Well then ! I suppose I will have to just go with you!"
-show fish confused at left
+
 "You feel rude for this but you can’t help but ask why she doesn’t just send her guards with you"
 
-show heart worried at right
+show heart worried
 
 H "O-Oh...ah, well...I love Dee and Dum but...they aren’t always the most, capable of the bunch."
 
 H "Besides its a fast trip and I haven’t seen my dear Clover in a while"
-show fish smiles at left
+
 "Heart starts pulling you out of the castle once again and has you follow her through the wood"
 
-scene bg forest at right
-show fish cries at left
-show heart neutral at right
+scene bg forest
+
+show heart neutral
 
 H "Don’t worry this is a relatively safe path we’ll be there in no more than 15 minutes"
 
@@ -309,7 +302,7 @@ show heart coverface at right
 "The fiends have diamonds on their chest and point weapons towards Heart and you but saying nothing."
 
 "You feel panic flooding your veins as a split second decision is forced in front of you"
-show fish thinkie at left
+
 menu:
 
     "Run the heffle fluff away":
@@ -322,7 +315,6 @@ menu:
 label hearttwoone:
 
 hide heart coverface
-show fish cries at center
 "Your flight or fight instincts kick in and you choice flight."
 "You shoot away from Heart and the scary men and run as fast as you can away from them."
 "Your not sure where you’re going or how long you run but you don’t stop until you are unable to  hear Heart’s voice crying out for you."
@@ -341,11 +333,10 @@ show fish fite at center
 show fish shock at left
 "When you open your eyes again all three guys on the guard knocked unconscious"
 "Wow you didn’t think you were that goo- "
-show heart fighting at right
+show heart fighting
 "Nope you turn to find Heart holding a bow a pointed towards the ground fully loaded"
 "You take another glance at the guys under you and see they all actually have arrows struck through their hearts"
 H "Its alright dearling. You were very brave."
-show fish lies at left
 "Oh well...yeah you gues you were!"
 jump hearttwoend
 
@@ -353,19 +344,20 @@ label hearttwothree:
 show fish cries at center
 "Your flight or fight instinct kick in and you choose neither."
 "Instead you choice to coward timidly behind Heart and screech."
-show heart fighting at right
+show heart fighting
 "Heart seems rather used to this and instead of cowering too like you expected she claps her hands and summons a bow."
 "She points it towards one of the men before releasing an arrow of pink energy into his chest and it’s ricochets off trees until all three men are down"
 H "Morons…"
 show heart worried at right
+
 show fish scawy at center
+
 H "Oh gosh are you alright that must have been so scary!"
 "...you make the decisions to never piss off Heart...ever…"
-jump hearttwoend
+jump heartwoend
 
 label hearttwoend:
-show heart thinking at right
-show fish lies at left
+show heart thinking
 H "Come on let’s keep moving forward"
 
 show fish confused at left
@@ -384,7 +376,7 @@ H "Oh yes all of the Rulers of Suite have a weapon and are able to summon."
 
 "Rulers of Suite? You ask if she means Suites as in the faces on cards."
 
-show heart worried at right
+show heart worried
 
 H "Well, unless yours are different than ours I believe so!"
 
@@ -396,8 +388,11 @@ show fish smiles at left
 
 show heart neutral at right
 
-H "Well here we are! Welcome to the Clover kingdom!"
+show heart neutral
 
+    "   "
+    label cloverstart:
+=======
 scene bg hearted
 "    "
 jump cloverstart
@@ -478,7 +473,7 @@ label cloverstart:
 
     "This goes on for a while before Clover finally takes notice of you."
     show heart neutral at right
-    show clover excited at center
+    show clover curious at center
     C "Ooooh you brought a friend?! Are they one of Spade’s? They look like one of Spades with the weird eyes and lips and hair and-"
 
     show heart scolding at right
@@ -502,7 +497,7 @@ label cloverstart:
     H "I’m sorry Clover but I only came to leave Fish with you. I’ve already been gone an hour and my people aren't the most….self reliant."
 
     "Noooo!! there goes your chance of a worry free trip."
-
+    show clover pout at center
     C "Awww no fair!"
 
     "Clover starts stomping her feet and pouting and you begin to question if she’s really the ruler of an entire kingdom."
@@ -517,6 +512,7 @@ label cloverstart:
 
     H "Then I’ll have to talk with him about that. In the meantime take care of Fish and please do try to reconcile with diamond."
     show heart coverface at right
+    show clover guilty at center
     H "I don’t blame you for their choices but...at least try to reconcile."
 
     "Clover sees off put by this and he pout turns more into an expression of shame."
@@ -525,6 +521,7 @@ label cloverstart:
     show heart neutral at right
     "Heart pats you on the head as if you were a child before walking away."
     hide heart neutral
+    show clover neutral at right
     C "So you want the Clover key right?"
     show fish smiles at left
     "You nod enthusiastically and hold out your hands wanting to just take the key and leave."
@@ -538,7 +535,7 @@ label cloverstart:
     C "Huh? You don’t know them? I thought for sure Heart would’ve explained them before putting you through the trials."
     show fish shock at left
     "What trials?!"
-
+    show clover shock at right
     C "She didn’t make you do the trails?! Ugh that is so unfair how come she gets to bend the rules and I don’t?!"
 
     "Part of you wants to point out that it’s because she’s a kid but somehow you think that’ll offend her."
@@ -548,7 +545,7 @@ label cloverstart:
     C "Well see we aren’t actually supposed to give the keys away for free."
 
     C "If we did then it would be too easy to get the keys and we’d have the same problems as before."
-
+    show clover neutral at right
     C "So we have to put everyone who wants the keys through a trial of some sort to prove that you’ve earned them."
 
     "What?! Heart never put you through any trial!"
@@ -583,14 +580,14 @@ label cloverstart:
 
     "Still, if you have to fight her to get out of this crazy world and go home then so be it!"
 
+    show clover neutral at right
     C "Oh come on I’ll take you down to the arena!"
 
     "Clover grabs your hand and drags you swiftly away through even more of the maze until she practically runs headfirst into an iron gate."
-
+    show clover excited at right
     C "Here it is!"
 
     "She pushes the gates open with a both hands in an over dramatic movement and you suddenly regret everything."
-    show fish normal at left
     scene bg arena
     show clover excited at right
     show fish normal at left
@@ -627,7 +624,8 @@ if stick:
     "And when you open your eyes again."
 
     "You haven’t landed a single hit on her…"
-
+    show clover cry at right
+    show fish fite at left
     "But she is sitting on the ground with tears in her eyes."
     jump stickend
 
@@ -682,10 +680,12 @@ else:
     jump stickend
 
 label stickend:
-    C "that was really scary…"
+    show fish cries at left
+    show clover cry at right
+    C"that was really scary…"
 
     "Oh god no she’s crying!"
-    show fish cries at left
+
     "You drop the stick and scamper over to her hugging her and patting her head gently."
 
     C "Im sorry!  I didn’t really wanna fight you but I thought you would treat me more seriously if the trial was more risky."
@@ -696,6 +696,7 @@ label stickend:
 
     "You gratefully take the key from her and stand up pulling her up with you."
     show fish lies at left
+    show clover curious at right
     C "Thank you….Hey do you wanna have a tea party?"
     show fish confused at left
     "Your a bit taken back by the question and your face must’ve given away your confusion."
@@ -710,17 +711,20 @@ label stickend:
 menu:
     "Sure why not?":
         show fish smiles at left
+        show fish excited at right
         "Clovers mood seems to shift incredible fast as she begins to jump up and down holding you hands."
 
         jump cloverchoiceoneend
     "I’m sorry I have to keep going":
         C "Oh...its ok I understand"
         show fish cries at left
+        show clover cry at right
         "Oh god no she’s tearing up again!"
 
         "You quickly change your answer to an overwhelming yes which seems to put a smile back on her face."
         jump cloverchoiceoneend
     "Say literally nothing":
+        show clover excited at right
         C "Im gonna take your silence as a yes!"
         "Oh wow she makes the difficulty of making choices easy!"
         jump cloverchoiceoneend
@@ -730,10 +734,13 @@ label cloverchoiceoneend:
 
     "You nod along with her."
 
+
     C "Oh come on! I can introduce you to Hatter while I’m at it!"
 
     "Hatter? Man everyone here has such weird names. Then again yours in Fish so who are you to judge."
-
+    scene bg maze
+    show clover neutral at right
+    show fish normal at left
     "Clover grabs you by the arm and drags you out of the arena and once again through the annoying maze."
 
     "At this point your stop trying to keep track of how to get out and just prayer someone will help you when you wanna leave."
@@ -743,25 +750,28 @@ label cloverchoiceoneend:
     "Oh….the whole maze is the castle? Well you suppose its safe from attacks."
 
     "Clover drags you along for a few more minutes while you roughly stumble around trying to keep up with her nimble feet."
-
+    show clover excited at right
     C "HERE WE ARE!"
-
+    show fish cries at left
+    show clover neutral at right
     "She comes to an abrupt halt and you slam into her back though she doesn’t seems to flinch."
 
     scene bg pinic
-
+    show clover excited at right
+    show fish normal at left
     "You stand outside the gates of yet another clearing with a low table and pillows on the ground."
-
+    show clover neutral at right
     "The table is littered with foods you’ve never seen and at the end of the table in an odd man."
 
     Ht "Ah! Clover! I knew you’d be coming!"
 
     C "Hi Hatter! I brought a friend look!"
-
+    show clover excited at right
+    show fish squish at left
     "Clover squishes your cheeks together and you try to protest that your not a puppy dog."
 
     Ht "Hm...I see...what an odd little creature they would be right at home here I am sure!"
-
+    show fish cries at left
     "Why does everyone always think you look weird?"
 
     Ht "Well in any case sit! Have some tea! Its Licorice and Matcha you’ll love it!"
@@ -771,11 +781,11 @@ label cloverchoiceoneend:
     "You sit down beside Clover and take a sip of the tea...huh it actually isn’t too bad!"
 
     Ht "By the way my little lady. I thought you might want to know this before someone else tells you but-"
-
+    show clover guilty at right
     C "Is it an update on the…..the war?"
 
     Ht "Yes it is in fact-"
-
+    show clover pout at right
     C "Then it can wait! After all war isn’t a nice thing to talk about when you have a friend over right? That’s what you tell me!"
 
     "It seems Clover really is avoiding this topic at all cost. Your insanely curious to figure out why but you also don’t want her to get angry at you."
@@ -783,11 +793,11 @@ label cloverchoiceoneend:
 menu:
 
     "Ask her to tell you more about the War":
-
+        show fish normal at left
         "You do your best to ask about war without sounding insensitive"
-
+        show clover guilty at right
         "You think you do a good job of it but the way she shrinks seems to tell you otherwise"
-
+        show fish cries at left
         "You quickly attempt to take about your question but-"
 
         C "No..it’s fine...You should at least know whats going on if you end up walking into one of the battle zones."
@@ -805,7 +815,7 @@ menu:
         C "They….They did not take it well."
 
         C "They declared war on my kingdom and when Heart tried to step in they declared war on her and Spade too."
-
+        show clover cry at right
         C "And know everyone and fighting and no one trusts me anymore to do anything...I guess it makes sense this is all my fault…."
 
         "Oh, now it makes more sense why she wanted to be taken seriously."
@@ -813,7 +823,7 @@ menu:
         "That doesn't seem very fair to you! It’s not Clover’s fault it’s not like she could make DIamond not declare a war!"
 
         "And besides if the other kingdoms think anyone is immature and untrustworthy it should be Diamond and not Clover."
-
+        show clover guilty at right
         "Clover seems to relax a bit more at your affirmation thought you can tell it’s still eating at her."
 
         "You decide to take a page from Heart’s book and hug her in hopes of it making her feel better."
@@ -822,7 +832,7 @@ menu:
         jump cloverchoicetwoend
 
     "Change the topic to something happier":
-
+        show fish cries at left
         "You panic and quickly switch the topic to the first thing you see"
 
         "Which happens to be the Mad Hatter so you ask him to tell you more about himself."
@@ -841,6 +851,8 @@ menu:
         jump gameover
 
     "Sip your tea":
+        show fish sips at left
+        show clover neutral at right
         "You take the longest sip of  tea known to mankind."
 
         "You sip until the cup is empty then you refill it and sip again."
@@ -856,13 +868,13 @@ label cloverchoicetwoend:
     "Hatter coughs kind of awkwardly."
 
     Ht "Well it’s getting awfully late and Im sure Fish will want to get home as soon as possible and from what I hear they have two more kingdoms to visit."
-
+    show clover curious at right
     C "Unless they wanna stay for a little while?"
 
     "You politely decline the offer using the excuse of wanting to get home as fast as possible."
-
-    C "seems a little put out by this but thank fully understanding."
-
+    show clover pout at right
+    "Clover seems a little put out by this but thank fully understanding."
+    show clover neutral at right
     C "Well in that case I guess I’ll escort you out that way you don't get lost!"
 
     "Oh thank God! You did not want go in that maze alone!"
@@ -870,16 +882,21 @@ label cloverchoicetwoend:
     C "In fact it would probably be best if I take you all the way to the next kingdom!"
 
     Ht "Your taking her to Spade? I thought you try to avoid her?"
-
+    show clover shock at right
     "You watch Clover’s face drop a little."
-
+    show clover pout at right
     C "Well...I mean...ok it’s not my fault she’s scary!!"
 
     "Hatter doesn't laugh at Clover’s fear but rather nods in understanding."
 
-    Ht "That they are, Well it’s probably for the best you escort Fish to her. Lord knows what she’d do otherwise."
+    Ht "That they are, Well it’s probably for the best you escort Fish to her. The Lord only knows what she’d do otherwise."
 
-    "Your suddenly feeling a lot less confident….."
+    "You are suddenly feeling a lot less confident….."
+    jump cloverend
+
+label cloverend:
+    scene bg cloverend
+    "    "
 
 label gameover:
 
