@@ -75,13 +75,13 @@ label start:
 
     "The duo seems to have forgotten all about you favoring poking each other with their sticks ."
 
-    "Now is your chance to slip out and avoid they’re tiny rage."
+    "Now is your chance to slip away and avoid their tiny rage."
 
-    "You begin to inch your way out of their field of vision when a voice stops you cold."
+    "You begin to inch your way out of their field of vision when a voice stops you cold in your tracks."
 
-    H "Boys? Where are you two? Did you find the thing that came out the well."
+    H "Boys? Where are you? Did you find the thing that came out the well."
 
-    "Oh god, that sounds like an actual adult you break into a full sprint when on of the twins sticks their stick in front of your feet causing you to hit the ground while the other throws a net on top of you."
+    "Oh god, that sounds like an actual adult you break into a full sprint when on of the twins sticks their weapon in front of your feet causing you to hit the ground face first while the other throws a net over you"
     show fish net at center
     show deeanddum neutral at left
     De "Yes Ma’am"
@@ -116,7 +116,7 @@ label start:
 
     "You don’t realize you are gawking until you see her look up and giggle presumably at you."
 
-    "She waves her the two twins away before sitting down in front of you."
+    "She waves the two twins away before sitting down in front of you."
     hide deeanddum scolded
 
     show heart neutral at right
